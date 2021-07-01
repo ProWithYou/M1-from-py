@@ -1,0 +1,17 @@
+import os
+
+# 입력
+# file_name = input("파일 이름을 입력하세요 : ")
+file_name = '502018850_KO_cnt_1'
+
+# 입력 파일 읽기
+file_data = open(file_name, 'r')
+
+# 파일 저장
+file_storage = file_data.read()
+
+# 입력 파일 출력
+print(file_storage)
+
+# 파일 정리
+file_data.close()
